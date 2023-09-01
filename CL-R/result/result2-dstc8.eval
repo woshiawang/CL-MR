@@ -1,0 +1,22 @@
+/home/root/anaconda3/envs/eval_avsd/lib/python2.7/site-packages/matplotlib/font_manager.py:984: UserWarning: Could not save font_manager cache [Errno 28] No space left on device
+  warnings.warn('Could not save font_manager cache {}'.format(e))
+Traceback (most recent call last):
+  File "utils/evaluate.py", line 2, in <module>
+    from pycocotools.coco import COCO
+  File "/mnt/hdd1/zhouwang/visvideo_data/dstc8avsd_eval/utils/coco-caption/pycocotools/coco.py", line 48, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/root/anaconda3/envs/eval_avsd/lib/python2.7/site-packages/matplotlib/pyplot.py", line 31, in <module>
+    import matplotlib.colorbar
+  File "/home/root/anaconda3/envs/eval_avsd/lib/python2.7/site-packages/matplotlib/colorbar.py", line 36, in <module>
+    import matplotlib.contour as contour
+  File "/home/root/anaconda3/envs/eval_avsd/lib/python2.7/site-packages/matplotlib/contour.py", line 27, in <module>
+    import matplotlib.texmanager as texmanager
+  File "/home/root/anaconda3/envs/eval_avsd/lib/python2.7/site-packages/matplotlib/texmanager.py", line 83, in <module>
+    class TexManager(object):
+  File "/home/root/anaconda3/envs/eval_avsd/lib/python2.7/site-packages/matplotlib/texmanager.py", line 91, in TexManager
+    mkdirs(texcache)
+  File "/home/root/anaconda3/envs/eval_avsd/lib/python2.7/site-packages/matplotlib/cbook/__init__.py", line 873, in mkdirs
+    os.makedirs(newdir, mode=mode)
+  File "/home/root/anaconda3/envs/eval_avsd/lib/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 28] No space left on device: '/root/.cache/matplotlib/tex.cache'
